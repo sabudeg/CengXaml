@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CengDepartment.Dersler"
+             Title="DERSLER">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bu Dönem Yürütülen Lisans ve Lisansüstü Ders Bilgileri" HorizontalOptions="StartAndExpand" FontAttributes="Bold" FontSize="Medium" TextColor="Red" />
+
+            <Label TextColor="Gray" Text="BIL519 - İleri Algoritma Analizi" />
+            <Label TextColor="Gray" Text="BIL551 - İleri Veri Tabanı Yönetim Sistemleri" />
+            <Label TextColor="Gray" Text="BIL561 - Bulanık Sinir Ağları" />
+            <Label TextColor="Gray" Text="BIL567 - Öneri Sistemlerine Giriş" />
+            <Label TextColor="Gray" Text="BIM101 - Bilgisayar Programlama I" />
+            <Label TextColor="Gray" Text="BIM203 - Mantık Tasarımı" />
+            <Label TextColor="Gray" Text="BIM207 - Bilgisayar Programlama III" />
+            <Label TextColor="Gray" Text="BIM209 - Yazılım Tasarlama ve Geliştirme Prensipleri" />
+            <Label TextColor="Gray" Text="BIM213 - Veri Yapıları ve Algoritmalar" />
+            <Label TextColor="Gray" Text="BIM302 - Bilgisayar Ağları" />
+            <Label TextColor="Gray" Text="BIM303 - Mikrobilgisayarlar" />
+            <Label TextColor="Gray" Text="BIM305 - Bilgisayar Organizasyonu" />
+            <Label TextColor="Gray" Text="BIM306 - İşletim Sistemleri" />
+            <Label TextColor="Gray" Text="BIM308 - Web Sunucu Programlama" />
+            <Label TextColor="Gray" Text="BIM309 - Yapay Us" />
+            <Label TextColor="Gray" Text="BIM313 - İleri Programlama Teknikleri" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+
