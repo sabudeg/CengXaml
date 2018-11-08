@@ -4,37 +4,39 @@
              x:Class="CengDepartment.Kisiler"
              Title="KIŞILER">
     <ContentPage.Content>
-        <Grid  ColumnSpacing="20" RowSpacing="20" >
+
+        <Grid  BackgroundColor="#fffbd6" >
             <Grid.RowDefinitions>
                 <RowDefinition  Height="*" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="0" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="FillAndExpand" BackgroundColor="#fffbd6"/>
-            <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" Grid.Row="0"  Grid.Column="1" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Fill" BackgroundColor="#fffbd6"/>
+            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="0" Grid.Column="0" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" />
+            <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" Grid.Row="0"  Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Fill" />
 
-            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="0" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="FillAndExpand" BackgroundColor="#fffbd6"/>
-            <Label Text="Prof.Dr.Yaşar HOŞCAN" Grid.Row="0"   Grid.Column="3" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Fill" BackgroundColor="#fffbd6" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="0" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="FillAndExpand" />
+            <Label Text="Prof.Dr.Yaşar HOŞCAN" Grid.Row="0"   Grid.Column="3" VerticalOptions="Start" HorizontalOptions="Fill"  />
 
             <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="1" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
-            <Label Text="Doç.Dr.Serkan GÜNAL" Grid.Row="1"  Grid.Column="1" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Fill" />
+            <Label Text="Doç.Dr.Serkan GÜNAL" Grid.Row="1"  Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Fill" />
 
             <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="1" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
-            <Label Text="Doç.Dr.Cihan KALELİ"  Grid.Row="1"  Grid.Column="3" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Fill" />
+            <Label Text="Doç.Dr.Cihan KALELİ"  Grid.Row="1"  Grid.Column="3" VerticalOptions="Start" HorizontalOptions="Fill" />
 
             <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="2" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="Start"/>
-            <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL"  Grid.Row="2"  Grid.Column="1" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Fill" />
-            
+            <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL"  Grid.Row="2"  Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Fill" />
+
             <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="2" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="Start"/>
-            <Label Text="Dr.Öğr. Üyesi Alper BİLGE" Grid.Row="2"  Grid.Column="3" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Fill" />
+            <Label Text="Dr.Öğr. Üyesi Alper BİLGE" Grid.Row="2"  Grid.Column="3"  VerticalOptions="Start" HorizontalOptions="Fill" />
 
             <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="3" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="Start"/>
-            <Label Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ" Grid.Row="3"  Grid.Column="1" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Fill" />
-            
+            <Label Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ" Grid.Row="3"  Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Fill" />
+
             <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="3" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="Start"/>
-            <Label Text="Araş.Gör.Dr. Burcu YÜREKLİ YILMAZEL"  Grid.Row="3"  Grid.Column="3" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Fill" />
+            <Label Text="Araş.Gör.Dr. Burcu YÜREKLİ YILMAZEL"  Grid.Row="3"  Grid.Column="3" VerticalOptions="Start" HorizontalOptions="Fill" />
         </Grid>
 
 

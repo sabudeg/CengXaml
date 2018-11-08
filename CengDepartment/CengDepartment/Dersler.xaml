@@ -4,7 +4,7 @@
              x:Class="CengDepartment.Dersler"
              Title="DERSLER">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="LightGray">
             <Label Text="Bu Dönem Yürütülen Lisans ve Lisansüstü Ders Bilgileri" HorizontalOptions="StartAndExpand" FontAttributes="Bold" FontSize="Medium" TextColor="Red" />
 
             <Label TextColor="Gray" Text="BIL519 - İleri Algoritma Analizi" />

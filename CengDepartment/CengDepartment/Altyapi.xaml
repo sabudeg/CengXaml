@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="CengDepartment.Altyapi"
              Title="ALTYAPI">
-    <ContentPage.Content>
-        <TableView Intent="Form">
+    <ContentPage.Content >
+        <TableView Intent="Form" BackgroundColor="LightGray">
             <TableRoot>
                 <TableSection Title="Classrooms">
                     <ImageCell Text="Classroom-B1" Detail="Kapasite: 36" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B1_icon.jpg" />
@@ -21,3 +21,4 @@
         </TableView>
     </ContentPage.Content>
 </ContentPage>
+ 
