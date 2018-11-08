@@ -1,4 +1,5 @@
 ﻿
+using System;
 using Xamarin.Forms;
 
 namespace CengDepartment
@@ -8,6 +9,8 @@ namespace CengDepartment
         public MainPage()
         {
             InitializeComponent();
+
         }
+
     }
 }

@@ -1,21 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:CengDepartment"
-             x:Class="CengDepartment.Altyapi"
+    x:Class="CengDepartment.Altyapi"
              Title="ALTYAPI">
-  <ContentPage.Content>
-    <StackLayout>
-      <Label Text="Xamarin.Forms native cell" HorizontalTextAlignment="Center" />
-      <ListView x:Name="listView" CachingStrategy="RecycleElement" >
-        <ListView.ItemTemplate>
-          <DataTemplate>
-            <local:NativeCell Name="{Binding Name}" Category="{Binding Category}" ImageFilename="{Binding ImageFilename}" />
-          </DataTemplate>
-        </ListView.ItemTemplate>
-      </ListView>
-    </StackLayout>
-
+    <ContentPage.Content>
+        <TableView Intent="Form">
+            <TableRoot>
+                <TableSection Title="Classrooms">
+                    <ImageCell Text="Classroom-B1" Detail="Kapasite: 36" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B1_icon.jpg" />
+                    <ImageCell Text="Classroom-B2" Detail="Kapasite: 15" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B2_icon.jpg" />
+                    <ImageCell Text="Classroom-B3" Detail="Kapasite: 18" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B3_icon.jpg" />
+                    <ImageCell Text="Classroom-B4" Detail="Kapasite: 24" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B4_icon.jpg" />
+                    <ImageCell Text="Classroom-B5" Detail="Kapasite: 15" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B5_icon.jpg" />
+                    <ImageCell Text="Classroom-B6" Detail="Kapasite: 24" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B6_icon.jpg" />
+                    <ImageCell Text="Classroom-B7" Detail="Kapasite: 54" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B7_icon.jpg" />
+                    <ImageCell Text="Lab-01" Detail="61 PC" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Lab_PC1_icon.jpg" />
+                    <ImageCell Text="Lab-02" Detail="24 iMac" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Lab_Mac1_icon.jpg" />
+                </TableSection>
+            </TableRoot>
+        </TableView>
     </ContentPage.Content>
-    
 </ContentPage>

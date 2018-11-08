@@ -9,13 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace CengDepartment
 {
+
     public partial class Altyapi : ContentPage
     {
         public Altyapi()
         {
             InitializeComponent();
-
-            listView.ItemsSource = DataSource.GetList();
         }
     }
 }
