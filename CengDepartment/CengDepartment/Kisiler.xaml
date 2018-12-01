@@ -11,20 +11,52 @@
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="0" Grid.Column="0" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" />
-            <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" Grid.Row="0"  Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Fill" />
+            <StackLayout Grid.Row="0" Grid.Column="0"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"> 
+            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg"  />
+            </StackLayout>
+            <FlexLayout Grid.Row="0" Grid.Column="1" Direction="Column">
+                <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" Margin="0,1" />
+                <Label Text="Mail: aarslan2@anadolu.edu.tr" Margin="0,1" />
+                <Label Text="GSM: 555-555-5555" Margin="0,1" />
+                <Button Text="CALL" Grid.Column="0" Margin="0,1" ></Button>
+            </FlexLayout>
 
-            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="0" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="FillAndExpand" />
-            <Label Text="Prof.Dr.Yaşar HOŞCAN" Grid.Row="0"   Grid.Column="3" VerticalOptions="Start" HorizontalOptions="Fill"  />
+            
+            
+            <StackLayout Grid.Row="0" Grid.Column="2">
+            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+            <FlexLayout Grid.Row="0" Grid.Column="3" Direction="Column">
+                <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" Margin="0,1" />
+                <Label Text="Mail: aarslan2@anadolu.edu.tr" Margin="0,1"  />
+                <Label Text="GSM: 555-555-5555" Margin="0,1"  />
+                <Button Text="CALL" VerticalOptions="EndAndExpand"></Button>
+            </FlexLayout>
+            
+            
 
-            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="1" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
-            <Label Text="Doç.Dr.Serkan GÜNAL" Grid.Row="1"  Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Fill" />
+            <StackLayout Grid.Row="1" Grid.Column="0">
+                <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg"  VerticalOptions="Start" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+            <FlexLayout Grid.Row="1" Grid.Column="1" Direction="Column">
+                <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN"/>
+            <Label Text="Mail: aarslan2@anadolu.edu.tr" />
+            <Label Text="GSM: 555-555-5555" />
+            <Button Text="CALL"></Button>
+            </FlexLayout>
 
-            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="1" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
-            <Label Text="Doç.Dr.Cihan KALELİ"  Grid.Row="1"  Grid.Column="3" VerticalOptions="Start" HorizontalOptions="Fill" />
+            <StackLayout Grid.Row="1" Grid.Column="2">
+                <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg"  VerticalOptions="Start" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+            <FlexLayout Grid.Row="1" Grid.Column="3 " Direction="Column">
+                <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" />
+                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                <Label Text="GSM: 555-555-5555"/>
+                <Button Text="CALL"></Button>
+            </FlexLayout>
+
 
             <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="2" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="Start"/>
             <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL"  Grid.Row="2"  Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Fill" />
@@ -37,6 +69,13 @@
 
             <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="3" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="Start"/>
             <Label Text="Araş.Gör.Dr. Burcu YÜREKLİ YILMAZEL"  Grid.Row="3"  Grid.Column="3" VerticalOptions="Start" HorizontalOptions="Fill" />
+
+          <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="3" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="Start"/>
+          <Label Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ" Grid.Row="3"  Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Fill" />
+
+          <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Row="3" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="Start"/>
+          <Label Text="Araş.Gör.Dr. Burcu YÜREKLİ YILMAZEL"  Grid.Row="3"  Grid.Column="3" VerticalOptions="Start" HorizontalOptions="Fill" />
+            
         </Grid>
 
 

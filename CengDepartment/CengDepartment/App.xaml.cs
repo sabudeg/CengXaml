@@ -7,12 +7,35 @@ namespace CengDepartment
 {
     public partial class App : Application
     {
+        //public App()
+        //{
+        //    InitializeComponent();
+
+        //    MainPage = new MainPage();
+        //}
+
+        public static bool IsUserLoggedIn { get; set; }
+
         public App()
         {
-            InitializeComponent();
-
-            MainPage = new MainPage();
+            if (!IsUserLoggedIn)
+            {
+                MainPage = new NavigationPage(new Login());
+                //MainPage = new NavigationPage(new Login());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new CengDepartment.MainPage());
+                //MainPage = new MainPage();
+            }
         }
+
+        //public App()
+        //{
+        //    InitializeComponent();
+
+        //    MainPage = new MainPage();
+        //}
 
         protected override void OnStart()
         {
