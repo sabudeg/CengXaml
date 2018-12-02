@@ -4,6 +4,7 @@
              x:Class="CengDepartment.Hakkinda"
              Title="HAKKINDA">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout BackgroundColor="LightGray">
             <Label Text="Bölüm Hakkında" HorizontalOptions="StartAndExpand" FontAttributes="Bold" FontSize="Medium" TextColor="Red" />
             <Label TextColor="Gray" Text="Ülkemizde sanayinin ve teknolojinin gelişmesine bağlı olarak bilgisayar teknolojisi konusunda deneyimli ve nitelikli teknik personele gereksinim her geçen gün daha da artmaktadır. Anadolu Üniversitesi Bilgisayar Mühendisliği Bölümü, ülkemizin bu anlamda ihtiyacı olan güncel bilgi birikimine sahip bilgisayar mühendisleri yetiştirmek amacıyla 1993 yılında kurulmuş olup 2000-2001 öğretim yılında lisans düzeyinde eğitime başlamıştır. Bölümümüz, bu tarihten beri kaliteli eğitim anlayışından ödün vermeden, hem akademik kadrosunu hem de altyapısını bilgisayar teknolojilerindeki değişimlere ayak uyduracak şekilde geliştirmekte; bilgili, bilinçli, donanımlı ve etik değerlere önem veren Bilgisayar Mühendisleri yetiştirmektedir. Lisans programının yanında yüksek lisans ve doktora eğitimi de verilmektedir.Bölümde eğitim dili İngilizce'dir. Eğitim süresi, 1 yıllık İngilizce hazırlık sınıfı ve 4 yıllık lisans programı olmak üzere toplam 5 yıldır. Bölüm, Anadolu Üniversitesi İki Eylül kampüsünde yer almaktadır ve 5000 m2'lik bir alana sahiptir."  />
@@ -24,6 +25,6 @@
             <Label TextColor="Gray" Text="İş Etiğine Bağlılık" />
             <Label TextColor="Gray" Text="Yaşam Boyu Öğrenme Bilinci" />
         </StackLayout>
-
+            </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -9,8 +9,6 @@ using Xamarin.Forms.Xaml;
 
 namespace CengDepartment
 {
-  
-
     public partial class Login : ContentPage
     {
         public Login()
@@ -63,7 +61,7 @@ namespace CengDepartment
         //public static string Email = "sbdegirmenci@eskisehir.edu.tr";
         //public static string Password = "123";
 
-        public static string Email = "123";
+        public static string Email = "burak";
         public static string Password = "123";
     }
 

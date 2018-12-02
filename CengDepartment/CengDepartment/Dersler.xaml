@@ -4,7 +4,9 @@
              x:Class="CengDepartment.Dersler"
              Title="DERSLER">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout BackgroundColor="LightGray">
+            
             <Label Text="Bu Dönem Yürütülen Lisans ve Lisansüstü Ders Bilgileri" HorizontalOptions="StartAndExpand" FontAttributes="Bold" FontSize="Medium" TextColor="Red" />
 
             <Label TextColor="Gray" Text="BIL519 - İleri Algoritma Analizi" />
@@ -23,7 +25,18 @@
             <Label TextColor="Gray" Text="BIM308 - Web Sunucu Programlama" />
             <Label TextColor="Gray" Text="BIM309 - Yapay Us" />
             <Label TextColor="Gray" Text="BIM313 - İleri Programlama Teknikleri" />
-        </StackLayout>
+            <Label TextColor="Gray" Text="BIM305 - Bilgisayar Organizasyonu" />
+            <Label TextColor="Gray" Text="BIM306 - İşletim Sistemleri" />
+            <Label TextColor="Gray" Text="BIM308 - Web Sunucu Programlama" />
+            <Label TextColor="Gray" Text="BIM309 - Yapay Us" />
+            <Label TextColor="Gray" Text="BIM313 - İleri Programlama Teknikleri" />
+            <Label TextColor="Gray" Text="BIM305 - Bilgisayar Organizasyonu" />
+            <Label TextColor="Gray" Text="BIM306 - İşletim Sistemleri" />
+            <Label TextColor="Gray" Text="BIM308 - Web Sunucu Programlama" />
+            <Label TextColor="Gray" Text="BIM309 - Yapay Us" />
+            <Label TextColor="Gray" Text="BIM313 - İleri Programlama Teknikleri" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
 

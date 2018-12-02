@@ -7,12 +7,6 @@ namespace CengDepartment
 {
     public partial class App : Application
     {
-        //public App()
-        //{
-        //    InitializeComponent();
-
-        //    MainPage = new MainPage();
-        //}
 
         public static bool IsUserLoggedIn { get; set; }
 
@@ -20,10 +14,7 @@ namespace CengDepartment
         {
             if (!IsUserLoggedIn)
             {
-                //MainPage = new Login();
-                // MainPage = new TabbedPage(new Login());
                 MainPage = new NavigationPage(new Login());
-
             }
             else
             {

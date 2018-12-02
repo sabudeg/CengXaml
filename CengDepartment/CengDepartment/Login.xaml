@@ -11,8 +11,6 @@
             <Button Text="Login" Clicked="OnLoginButtonClicked" />
             <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
             <Label x:Name="messageLabel" />
-            
-            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

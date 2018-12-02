@@ -8,139 +8,140 @@
         <ScrollView>
 
             <Grid  BackgroundColor="#fffbd6" >
-            <Grid.RowDefinitions>
-                <RowDefinition  Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-            <StackLayout Grid.Row="0" Grid.Column="0" >
-                <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  />
-            </StackLayout>
-            <FlexLayout Grid.Row="0" Grid.Column="1" Direction="Column">
-                <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" Margin="0,1" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr" Margin="0,1" />
-                <Label x:Name="gsm" Text="GSM: 555-555-5555" Margin="0,1" />
-                <Button Text="CALL" Grid.Column="0" Margin="0,1" Clicked="CallClicked"></Button>
-            </FlexLayout>
+                <StackLayout Grid.Row="0" Grid.Column="0" >
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  />
+                </StackLayout>
+                <FlexLayout Grid.Row="0" Grid.Column="1" Direction="Column">
+                    <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" Margin="0,1" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr" Margin="0,1" />
+                    <Label x:Name="gsm" Text="GSM: 555-555-5555" Margin="0,1" />
+                    <Button Text="CALL" Grid.Column="0" Margin="0,1" Clicked="CallClicked"></Button>
+                </FlexLayout>
 
-            
-            <StackLayout Grid.Row="0" Grid.Column="2">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/yhoscan.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="0" Grid.Column="3" Direction="Column">
-                <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" Margin="0,1" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr" Margin="0,1"  />
+
+                <StackLayout Grid.Row="0" Grid.Column="2">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/yhoscan.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="0" Grid.Column="3" Direction="Column">
+                    <Label Text="Prof.Dr. Yaşar HOŞCAN" Margin="0,1" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr" Margin="0,1"  />
                     <Label x:Name="gsm1" Text="GSM: 555-555-5555" Margin="0,1" />
                     <Button Text="CALL" VerticalOptions="EndAndExpand" Clicked="CallClicked"></Button>
-            </FlexLayout>
-            
-
-            <StackLayout Grid.Row="1" Grid.Column="0">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/serkangunal.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="1" Grid.Column="1" Direction="Column">
-                <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN"/>
-            <Label Text="Mail: aarslan2@anadolu.edu.tr" />
-            <Label Text="GSM: 555-555-5555" />
-             <Button Text="CALL" Clicked="CallClicked"></Button>
-            </FlexLayout>
-
-            <StackLayout Grid.Row="1" Grid.Column="2">
-                        <Image Source="http://ceng.eskisehir.edu.tr/img/ckaleli.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="1" Grid.Column="3 " Direction="Column">
-                <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                <Label Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
                 </FlexLayout>
-            
-            
-            <StackLayout Grid.Row="2" Grid.Column="0">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/akuysal.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="2" Grid.Column="1 " Direction="Column">
-                <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                <Label Text="GSM: 555-555-5555"/>
+
+
+                <StackLayout Grid.Row="1" Grid.Column="0">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/serkangunal.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="1" Grid.Column="1" Direction="Column">
+                    <Label Text="Assoc.Prof.Dr. Serkan GÜNAL"/>
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr" />
+                    <Label x:Name="gsm2" Text="GSM: 555-555-5555" />
                     <Button Text="CALL" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
-            <StackLayout Grid.Row="2" Grid.Column="2">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/abilge.png"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="2" Grid.Column="3 " Direction="Column">
-                <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                <Label Text="GSM: 555-555-5555"/>
+                <StackLayout Grid.Row="1" Grid.Column="2">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/ckaleli.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="1" Grid.Column="3 " Direction="Column">
+                    <Label Text="Assoc.Prof.Dr. Cihan KALELİ" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                    <Label x:Name="gsm3" Text="GSM: 555-555-5555"/>
                     <Button Text="CALL" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
-            <StackLayout Grid.Row="3" Grid.Column="0">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/sevcany.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="3" Grid.Column="1 " Direction="Column">
-                <Label Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                <Label Text="GSM: 555-555-5555"/>
+
+                <StackLayout Grid.Row="2" Grid.Column="0">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/akuysal.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="2" Grid.Column="1 " Direction="Column">
+                    <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                    <Label x:Name="gsm4" Text="GSM: 555-555-5555"/>
                     <Button Text="CALL" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
-            <StackLayout Grid.Row="3" Grid.Column="2">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/byurekli.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="3" Grid.Column="3 " Direction="Column">
-                <Label Text="Res.Asst.Dr. Burcu YÜREKLİ YILMAZEL" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                <Label Text="GSM: 555-555-5555"/>
+                <StackLayout Grid.Row="2" Grid.Column="2">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/abilge.png"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="2" Grid.Column="3 " Direction="Column">
+                    <Label Text="Dr.Öğr. Üyesi Alper BİLGE" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                    <Label x:Name="gsm5" Text="GSM: 555-555-5555"/>
                     <Button Text="CALL" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
-            <StackLayout Grid.Row="4" Grid.Column="0">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/oozsen.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="4" Grid.Column="1 " Direction="Column">
-                <Label Text="Lect. Özgür ÖZŞEN" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                <Label Text="GSM: 555-555-5555"/>
+                <StackLayout Grid.Row="3" Grid.Column="0">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/sevcany.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="3" Grid.Column="1 " Direction="Column">
+                    <Label Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                    <Label x:Name="gsm6" Text="GSM: 555-555-5555"/>
                     <Button Text="CALL" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
-            <StackLayout Grid.Row="4" Grid.Column="2">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/ekacmaz.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="4" Grid.Column="3 " Direction="Column">
-                <Label Text="Lect. Emre KAÇMAZ" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                <Label Text="GSM: 555-555-5555"/>
+                <StackLayout Grid.Row="3" Grid.Column="2">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/byurekli.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="3" Grid.Column="3 " Direction="Column">
+                    <Label Text="Res.Asst.Dr. Burcu YÜREKLİ YILMAZEL" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                    <Label x:Name="gsm7" Text="GSM: 555-555-5555"/>
                     <Button Text="CALL" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
-            <StackLayout Grid.Row="5" Grid.Column="0">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/oozsen.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="4" Grid.Column="1 " Direction="Column">
-                <Label Text="Lect. Özgür ÖZŞEN" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                <Label Text="GSM: 555-555-5555"/>
+                <StackLayout Grid.Row="4" Grid.Column="0">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/oozsen.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="4" Grid.Column="1 " Direction="Column">
+                    <Label Text="Lect. Özgür ÖZŞEN" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                    <Label x:Name="gsm8" Text="GSM: 555-555-5555"/>
                     <Button Text="CALL" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
-            <StackLayout Grid.Row="5" Grid.Column="2">
-                <Image Source="http://ceng.eskisehir.edu.tr/img/ekacmaz.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-            <FlexLayout Grid.Row="4" Grid.Column="3 " Direction="Column">
-                <Label Text="Lect. Emre KAÇMAZ" />
-                <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                <Label Text="GSM: 555-555-5555"/>
+                <StackLayout Grid.Row="4" Grid.Column="2">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/ekacmaz.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="4" Grid.Column="3 " Direction="Column">
+                    <Label Text="Lect. Emre KAÇMAZ" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                    <Label x:Name="gsm9" Text="GSM: 555-555-5555"/>
                     <Button Text="CALL" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
-        </Grid>
-            
-            </ScrollView>
+                <StackLayout Grid.Row="5" Grid.Column="0">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/etdemirkiran.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="5" Grid.Column="1 " Direction="Column">
+                    <Label Text="Res.Asst. Emin Talip DEMİRKIRAN" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                    <Label x:Name="gsm10" Text="GSM: 555-555-5555"/>
+                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                </FlexLayout>
+
+                <StackLayout Grid.Row="5" Grid.Column="2">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/rasimcekik.jpg"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <FlexLayout Grid.Row="5" Grid.Column="3 " Direction="Column">
+                    <Label Text="Res.Asst. Rasim ÇEKİK" />
+                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
+                    <Label x:Name="gsm11" Text="GSM: 555-555-5555"/>
+                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                </FlexLayout>
+
+            </Grid>
+
+        </ScrollView>
 
     </ContentPage.Content>
 </ContentPage>
