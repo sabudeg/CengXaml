@@ -60,8 +60,11 @@ namespace CengDepartment
 
     public static class Constants
     {
-        public static string Email = "Xamarin";
-        public static string Password = "password";
+        //public static string Email = "sbdegirmenci@eskisehir.edu.tr";
+        //public static string Password = "123";
+
+        public static string Email = "123";
+        public static string Password = "123";
     }
 
 }

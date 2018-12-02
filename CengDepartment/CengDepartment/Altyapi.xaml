@@ -7,7 +7,7 @@
         <TableView Intent="Form" BackgroundColor="LightGray">
             <TableRoot>
                 <TableSection Title="Classrooms">
-                    <ImageCell Text="Classroom-B1" Detail="Kapasite: 36" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B1_icon.jpg" />
+                    <ImageCell x:Name="b1" Text="Classroom-B1" Detail="Kapasite: 36" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B1_icon.jpg" />
                     <ImageCell Text="Classroom-B2" Detail="Kapasite: 15" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B2_icon.jpg" />
                     <ImageCell Text="Classroom-B3" Detail="Kapasite: 18" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B3_icon.jpg" />
                     <ImageCell Text="Classroom-B4" Detail="Kapasite: 24" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B4_icon.jpg" />

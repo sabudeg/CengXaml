@@ -16,5 +16,16 @@ namespace CengDepartment
         {
             InitializeComponent();
         }
+
+
+        //private void ImageCell_Tapped(object sender, EventArgs e)
+        //{
+        //   // DisplayAlert("Item Selected", e.SelectedItem.ToString(), "Ok");
+
+        //    DisplayAlert("Item Selected", e.ToStrin
+
+        //    var image = new Image();
+        //    image.GestureRecognizers.Add(new TapGestureRecognizer(OnTap));
+        //}
     }
 }

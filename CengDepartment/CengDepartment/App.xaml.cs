@@ -20,8 +20,10 @@ namespace CengDepartment
         {
             if (!IsUserLoggedIn)
             {
+                //MainPage = new Login();
+                // MainPage = new TabbedPage(new Login());
                 MainPage = new NavigationPage(new Login());
-                //MainPage = new NavigationPage(new Login());
+
             }
             else
             {
