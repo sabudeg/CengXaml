@@ -4,21 +4,17 @@
     x:Class="CengDepartment.Altyapi"
              Title="ALTYAPI">
     <ContentPage.Content >
-        <TableView Intent="Form" BackgroundColor="LightGray">
-            <TableRoot>
-                <TableSection Title="Classrooms" >
-                    <ImageCell x:Name="b1" Text="Classroom-B1" Detail="Kapasite: 36" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B1_icon.jpg" />
-                    <ImageCell Text="Classroom-B2" Detail="Kapasite: 15" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B2_icon.jpg" />
-                    <ImageCell Text="Classroom-B3" Detail="Kapasite: 18" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B3_icon.jpg" />
-                    <ImageCell Text="Classroom-B4" Detail="Kapasite: 24" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B4_icon.jpg" />
-                    <ImageCell Text="Classroom-B5" Detail="Kapasite: 15" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B5_icon.jpg" />
-                    <ImageCell Text="Classroom-B6" Detail="Kapasite: 24" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B6_icon.jpg" />
-                    <ImageCell Text="Classroom-B7" Detail="Kapasite: 54" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B7_icon.jpg" />
-                    <ImageCell Text="Lab-01" Detail="61 PC" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Lab_PC1_icon.jpg" />
-                    <ImageCell Text="Lab-02" Detail="24 iMac" ImageSource="http://ceng.eskisehir.edu.tr/Documents/Lab_Mac1_icon.jpg" />
-                </TableSection>
-            </TableRoot>
-        </TableView>
+        
+        <ListView x:Name="Room" BackgroundColor="LightGray" ItemTapped="Room_ItemTapped" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+             
+                    <ImageCell Text="{Binding Name}" Detail="{Binding Detail}" ImageSource="{Binding Image}" />
+                  
+                 </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
     </ContentPage.Content>
 </ContentPage>
- 
+
