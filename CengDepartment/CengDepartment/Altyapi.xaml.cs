@@ -16,7 +16,7 @@ namespace CengDepartment
         public List<Room> roomList { get; set; }
 
         public Altyapi()
-        {
+            {
             InitializeComponent();
             
             roomList = new List<Room>
@@ -37,8 +37,6 @@ namespace CengDepartment
 
         }
 
-        Image grdImage = new Image();
-       
 
        async void Room_ItemTapped(object sender, ItemTappedEventArgs e)
         
@@ -47,8 +45,6 @@ namespace CengDepartment
                 await Navigation.PushAsync(new AltyapiDetail(selectedRoom.Name, selectedRoom.Detail, selectedRoom.Image));
 
             }
-        
-
 
             }
        }

@@ -1,14 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CengDepartment"
              x:Class="CengDepartment.Kisiler"
              Title="KIŞILER">
     <ContentPage.Content>
 
         <ScrollView>
+                 <Grid  BackgroundColor="#fffbd6" >
 
-            <Grid  BackgroundColor="#fffbd6" >
-                
+                <!--<Grid.BindingContext>
+                    <local:Person/>
+                </Grid.BindingContext>-->
+
                 <Grid.RowDefinitions>
                     <RowDefinition  Height="*" />
                 </Grid.RowDefinitions>
@@ -22,8 +26,8 @@
                 <FlexLayout Grid.Row="0" Grid.Column="1" Direction="Column">
                     <Label Text="Dr.Öğr.Üyesi Ahmet ARSLAN" Margin="0,1" />
                     <Label Text="Mail: aarslan2@anadolu.edu.tr" Margin="0,1" />
-                    <Label x:Name="gsm" Text="GSM: 555-555-5555" Margin="0,1" />
-                    <Button Text="CALL" Grid.Column="0" Margin="0,1" Clicked="CallClicked"></Button>
+                    <Label Text="GSM: 6553" Margin="0,1" />
+                    <Button Text="CALL" BindingContext="6553" Grid.Column="0" Margin="0,1" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
 
@@ -32,9 +36,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="0" Grid.Column="3" Direction="Column">
                     <Label Text="Prof.Dr. Yaşar HOŞCAN" Margin="0,1" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr" Margin="0,1"  />
-                    <Label x:Name="gsm1" Text="GSM: 555-555-5555" Margin="0,1" />
-                    <Button Text="CALL" VerticalOptions="EndAndExpand" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: hoscan@anadolu.edu.tr" Margin="0,1"  />
+                    <Label x:Name="gsm1" Text="GSM: 6558" Margin="0,1" />
+                    <Button Text="CALL" BindingContext="6558" VerticalOptions="EndAndExpand" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
 
@@ -43,9 +47,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="1" Grid.Column="1" Direction="Column">
                     <Label Text="Assoc.Prof.Dr. Serkan GÜNAL"/>
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr" />
-                    <Label x:Name="gsm2" Text="GSM: 555-555-5555" />
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: serkangunal@anadolu.edu.tr" />
+                    <Label x:Name="gsm2" Text="GSM: 6567" />
+                    <Button Text="CALL" BindingContext="6567" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
                 <StackLayout Grid.Row="1" Grid.Column="2">
@@ -53,9 +57,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="1" Grid.Column="3 " Direction="Column">
                     <Label Text="Assoc.Prof.Dr. Cihan KALELİ" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                    <Label x:Name="gsm3" Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: ckaleli@anadolu.edu.tr"  />
+                    <Label x:Name="gsm3" Text="GSM: 6564"/>
+                    <Button Text="CALL" BindingContext="6564" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
 
@@ -64,9 +68,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="2" Grid.Column="1 " Direction="Column">
                     <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                    <Label x:Name="gsm4" Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: akuysal@anadolu.edu.tr"  />
+                    <Label x:Name="gsm4" Text="GSM: 6572"/>
+                    <Button Text="CALL" BindingContext="6572" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2">
@@ -74,9 +78,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="2" Grid.Column="3 " Direction="Column">
                     <Label Text="Dr.Öğr. Üyesi Alper BİLGE" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                    <Label x:Name="gsm5" Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: abilge@anadolu.edu.tr"  />
+                    <Label x:Name="gsm5" Text="GSM: 6552"/>
+                    <Button Text="CALL" BindingContext="6552" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="0">
@@ -84,9 +88,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="3" Grid.Column="1 " Direction="Column">
                     <Label Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                    <Label x:Name="gsm6" Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: sevcany@anadolu.edu.tr"  />
+                    <Label x:Name="gsm6" Text="GSM: 6554"/>
+                    <Button Text="CALL" BindingContext="6554" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2">
@@ -94,9 +98,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="3" Grid.Column="3 " Direction="Column">
                     <Label Text="Res.Asst.Dr. Burcu YÜREKLİ YILMAZEL" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                    <Label x:Name="gsm7" Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: byurekli@anadolu.edu.tr"  />
+                    <Label x:Name="gsm7" Text="GSM: 6566"/>
+                    <Button Text="CALL" BindingContext="6566" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
                 <StackLayout Grid.Row="4" Grid.Column="0">
@@ -104,9 +108,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="4" Grid.Column="1 " Direction="Column">
                     <Label Text="Lect. Özgür ÖZŞEN" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                    <Label x:Name="gsm8" Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: oozsen@anadolu.edu.tr"  />
+                    <Label x:Name="gsm8" Text="GSM: 6557"/>
+                    <Button Text="CALL" BindingContext="6557" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
                 <StackLayout Grid.Row="4" Grid.Column="2">
@@ -114,9 +118,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="4" Grid.Column="3 " Direction="Column">
                     <Label Text="Lect. Emre KAÇMAZ" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                    <Label x:Name="gsm9" Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: emrekacmaz@anadolu.edu.tr"  />
+                    <Label x:Name="gsm9" Text="GSM: 6561"/>
+                    <Button Text="CALL" BindingContext="6561" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
                 <StackLayout Grid.Row="5" Grid.Column="0">
@@ -124,9 +128,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="5" Grid.Column="1 " Direction="Column">
                     <Label Text="Res.Asst. Emin Talip DEMİRKIRAN" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                    <Label x:Name="gsm10" Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: etd@anadolu.edu.tr"  />
+                    <Label x:Name="gsm10" Text="GSM: 7129"/>
+                    <Button Text="CALL" BindingContext="7129" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
                 <StackLayout Grid.Row="5" Grid.Column="2">
@@ -134,9 +138,9 @@
                 </StackLayout>
                 <FlexLayout Grid.Row="5" Grid.Column="3 " Direction="Column">
                     <Label Text="Res.Asst. Rasim ÇEKİK" />
-                    <Label Text="Mail: aarslan2@anadolu.edu.tr"  />
-                    <Label x:Name="gsm11" Text="GSM: 555-555-5555"/>
-                    <Button Text="CALL" Clicked="CallClicked"></Button>
+                    <Label Text="Mail: rasimcekik@anadolu.edu.tr"  />
+                    <Label x:Name="gsm11" Text="GSM: 6569"/>
+                    <Button Text="CALL" BindingContext="6569" Clicked="CallClicked"></Button>
                 </FlexLayout>
 
             </Grid>
