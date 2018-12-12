@@ -8,8 +8,8 @@
             <Entry x:Name="emailEntry" Placeholder="Email" />
             <Label Text="Password" />
             <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="true" />
-            <Button Text="Login" Clicked="OnLoginButtonClicked" />
-            <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+            <Button Text="LOGIN" Clicked="OnLoginButtonClicked" />
+            <Button Text="SIGN UP" Clicked="OnSignUpButtonClicked" />
             <Label x:Name="messageLabel" />
         </StackLayout>
     </ContentPage.Content>
